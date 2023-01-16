@@ -1,0 +1,51 @@
+html, body{
+    background-color: hsl(56, 80%, 60%);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 0, 0);
+    display:block;
+    text-align: center;
+    
+
+}
+.conteiner{
+    background-color: rgb(252, 244, 248);
+    text-align: center;
+    padding: lem;
+    border-radius: 10px;
+    width: 37em;
+    height: 20em;
+    box-shadow: 5px 8px 8px #666;
+    color: black
+ ;
+
+}
+
+
+.number{
+    border-radius: 20px;
+    width: 27em;
+    height: 2em;
+    text-align: center;
+}
+
+.vali{
+    border-radius: 20px;
+    left: 27em;
+    width: 5em;
+    
+
+}
+.verify{
+    border-radius: 20px;
+    left: 27em;
+    width: 5em;
+   
+
+
+}
+.custumer{
+    border-radius: 20px;
+    width: 27em;
+    height: 2em;
+    text-align: center;
+}

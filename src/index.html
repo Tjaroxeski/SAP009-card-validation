@@ -2,13 +2,59 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Delivery de comida- Rango na hora</title>
     <link rel="stylesheet" href="style.css" />
+    
+
   </head>
+  
   <body>
-    <header></header>
+    <header>
+      <h1>Falta pouco para a sua comida chegar até você!</h1>
+      <h2>Para finalizar sua compra, insira os dados do seu cartão de crédito</h2>
+    </header>
+
+    <div class="conteiner">
+      <div class="content">
+        <div class="header">
+   
+    <p>Número do cartão</p>
+    <input class="number" id="cc" type="text" name="creditcard"
+placeholder="XXXX.XXXX.XXXX.XXXX" maxlength="16" required value="">
+
+    
+    <label>
+      <p>Validade (mês/ano)</p>
+    <input class="vali "id="vality" type="text" name="val"
+placeholder="00/00" maxlength="5" required value="">
+      
+
+    </label>
+    
+    <label>
+      <p>Código de segurança</p>
+      <input class="verify"id="code" type="text" name="cod" placeholder="XXX" maxlength="3" required value="">
+      
+    </label>
+
+    <label>
+      <p>Nome do Titular</p>
+      <input class="custumer" id="name" type="text" name="holder" placeholder="Nome impresso no cartão" required value="">
+      
+    </label>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
     <main></main>
-    <footer></footer>
+    <footer> 
+      <div class="footer">
+      <button type="submit" id="enviar"> Enviar dados e fazer pedido</button>
+      </div>
+    </footer> 
     <script src="index.js" type="module"></script>
   </body>
 </html>
