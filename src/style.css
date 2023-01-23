@@ -1,22 +1,27 @@
 html, body{
-    background-color: hsl(56, 80%, 60%);
+    background-color:#E6E6FA;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(255, 0, 0);
+    color:#008B8B;
     display:block;
     text-align: center;
     
 
 }
 .conteiner{
-    background-color: rgb(252, 244, 248);
+    background-color:#F8F8FF;
+
+
+
     text-align: center;
     padding: lem;
     border-radius: 10px;
     width: 37em;
     height: 20em;
     box-shadow: 5px 8px 8px #666;
-    color: black
- ;
+    color: black;
+    align-items: center;
+    
+ 
 
 }
 
@@ -48,4 +53,10 @@ html, body{
     width: 27em;
     height: 2em;
     text-align: center;
+}
+.footer{
+    text-align: left;
+    height: 20em;
+    width: 10em;
+    border-radius: 20px;
 }

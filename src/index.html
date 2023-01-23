@@ -13,14 +13,15 @@
       <h1>Falta pouco para a sua comida chegar até você!</h1>
       <h2>Para finalizar sua compra, insira os dados do seu cartão de crédito</h2>
     </header>
-
+  <form> 
     <div class="conteiner">
       <div class="content">
         <div class="header">
    
     <p>Número do cartão</p>
-    <input class="number" id="cc" type="text" name="creditcard"
-placeholder="XXXX.XXXX.XXXX.XXXX" maxlength="16" required value="">
+    <input class="number" id="cc" type="text" name="creditcard" 
+placeholder="XXXX.XXXX.XXXX.XXXX" maxlength="16" required>
+    
 
     
     <label>
@@ -46,14 +47,18 @@ placeholder="00/00" maxlength="5" required value="">
       </div>
     </div>
     
-    
+  </form>
     
     
     <main></main>
     <footer> 
       <div class="footer">
-      <button type="submit" id="enviar"> Enviar dados e fazer pedido</button>
+      <button type="submit" id="enviar" name="ok">Enviar dados e fazer pedido...</button>
+      <p id="mensagem"></p>
       </div>
+
+      
+      </section>
     </footer> 
     <script src="index.js" type="module"></script>
   </body>

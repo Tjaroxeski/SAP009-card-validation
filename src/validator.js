@@ -1,7 +1,11 @@
 const validator = {
-  // ...
-};
-
+  //...
+}
 export default validator;
 
-//inserir a funçao para validar o cartão(aqui é a logica do JS)
+//pegar o dado da variavel creditCardNumber e aplicar uma funçao que valide o numero 
+//definir uma string */
+
+function validate(n){
+  
+}
