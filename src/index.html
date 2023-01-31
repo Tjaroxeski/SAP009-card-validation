@@ -13,53 +13,53 @@
       <h1>Falta pouco para a sua comida chegar até você!</h1>
       <h2>Para finalizar sua compra, insira os dados do seu cartão de crédito</h2>
     </header>
-  <form> 
-    <div class="conteiner">
-      <div class="content">
-        <div class="header">
-   
-    <p>Número do cartão</p>
-    <input class="number" id="cc" type="text" name="creditcard" 
-placeholder="XXXX.XXXX.XXXX.XXXX" maxlength="16" required>
-    
+     
+    <main>
+      <form> 
+       <div class="conteiner">
+         <div class="content">
+           <div class="header">
+        <label>
+        <p>Número do cartão</p>
+        <input class="number" id="cc" type="text" name="creditcard" pattern="[0,9]" onkeypress="return event.charCode >=48 && event.charCode <=57" 
+placeholder="XXXX.XXXX.XXXX.XXXX" maxlength="16" data-js="cartao" required> <!--event.charCode- Representa um número de cada caractere na tabela unicode (entre 48 e 57 estão os numeros de 0 a 9)-->
+        </label>
 
     
-    <label>
-      <p>Validade (mês/ano)</p>
-    <input class="vali "id="vality" type="text" name="val"
-placeholder="00/00" maxlength="5" required value="">
-      
+        <label>
+          <p>Validade (mês/ano)</p>
+          <input class="vali "id="vality" type="text" name="val" placeholder="00/00" maxlength="5" required>
+        </label>
 
-    </label>
+        <label>
     
-    <label>
-      <p>Código de segurança</p>
-      <input class="verify"id="code" type="text" name="cod" placeholder="XXX" maxlength="3" required value="">
-      
-    </label>
+        <p>Código de segurança</p>
+        <input class="verify"id="code" type="text" name="cod" placeholder="XXX" maxlength="3" required>
+        </label>
+        
 
-    <label>
-      <p>Nome do Titular</p>
-      <input class="custumer" id="name" type="text" name="holder" placeholder="Nome impresso no cartão" required value="">
-      
-    </label>
+       <label>
+       <p>Nome do Titular</p>
+       <input class="custumer" id="name" type="text" name="holder" placeholder="Nome impresso no cartão" required>
+       </label>
+    
+          </div>
         </div>
       </div>
-    </div>
     
-  </form>
+     </form>
     
     
-    <main></main>
+    </main>
     <footer> 
       <div class="footer">
-      <button type="submit" id="enviar" name="ok">Enviar dados e fazer pedido...</button>
+      <button type="submit" id="enviar" name="ok" >Enviar dados e fazer pedido...</button>
       <p id="mensagem"></p>
       </div>
 
       
-      </section>
-    </footer> 
+      
+     </footer> 
     <script src="index.js" type="module"></script>
   </body>
 </html>
