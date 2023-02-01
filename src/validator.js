@@ -7,18 +7,26 @@ isValid(creditCardNumber) {
   
     
     
-         for (let i = 0; i <= arrayCreditCardNumber.length - 1; i++){
-           // console.log(arrayCreditCardNumber); //ok, funfando a array invertida
+         for (let i = 0; i <= arrayCreditCardNumber.length -1; i++){
+           //console.log(arrayCreditCardNumber); //ok, funfando a array invertida
            let digit = parseInt(arrayCreditCardNumber[i]);
-            if ( i % 2) {
+            if ( i % 2 === 0) {
                 digit *= 2;
-                if (digit > 9)
-                 digit -=9;
+                if (digit > 9){
+                  digit -=9;
+                } 
+                
             }
+
             totalSum += digit;
          }
-         return totalSum % 10 === 0;
+        if ( totalSum % 10 === 0){
+          return true 
         }
+        return false
+
+        }
+        
     
 
         //     if ((i +1) % 2 ===0){

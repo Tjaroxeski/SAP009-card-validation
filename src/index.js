@@ -2,7 +2,7 @@ import {isValid} from './validator.js'
 
 
 
-const creditCardNumber = document.querySelector("#cc"); // chamar id ou classe do html
+const creditCardNumber = document.getElementById("cc"); // chamar id ou classe do html
 const buttonSend= document.getElementById("enviar");// chamar o botão do html
 //const messageConfirm= document.getElementById("mensagem");//fazer aparecer mensagem de confirmaçao ou erro 
 
@@ -30,10 +30,10 @@ function cardValidation(){
     }
 
     else if(isValid(custumerInput)===true){
-       return alert ("dados falsos");
+       return alert ("O cartão foi validado, em breve você receberá seu pedido!");
     }else { 
        (isValid(custumerInput) ===false)
-       alert("cartao validado")
+       alert("Ops! Algo de errado aconteceu, por favor verifique os dados do cartão e tente novamente.")
        }
       }
     

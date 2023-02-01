@@ -15,30 +15,32 @@
     </header>
      
     <main>
-      <form> 
+      
        <div class="conteiner">
          <div class="content">
            <div class="header">
-        <label>
+        
+            <form> 
+            <label>
         <p>Número do cartão</p>
-        <input class="number" id="cc" type="text" name="creditcard" pattern="[0,9]" onkeypress="return event.charCode >=48 && event.charCode <=57" 
+        <input label for="cartao" class="number" id="cc" type="text" name="creditcard" pattern="[0,9]" onkeypress="return event.charCode >=48 && event.charCode <=57" 
 placeholder="XXXX.XXXX.XXXX.XXXX" maxlength="16" data-js="cartao" required> <!--event.charCode- Representa um número de cada caractere na tabela unicode (entre 48 e 57 estão os numeros de 0 a 9)-->
-        </label>
+        
 
     
-        <label>
+        
           <p>Validade (mês/ano)</p>
-          <input class="vali "id="vality" type="text" name="val" placeholder="00/00" maxlength="5" required>
-        </label>
+          <input label for="val" class="vali "id="vality" type="text" name="val" placeholder="00/00" maxlength="5" required>
+        
 
-        <label>
+        
     
         <p>Código de segurança</p>
         <input class="verify"id="code" type="text" name="cod" placeholder="XXX" maxlength="3" required>
-        </label>
+        
         
 
-       <label>
+       
        <p>Nome do Titular</p>
        <input class="custumer" id="name" type="text" name="holder" placeholder="Nome impresso no cartão" required>
        </label>
