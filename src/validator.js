@@ -32,11 +32,11 @@ export function maskify(custumerInput) {
     return custumerInput
   }
 
-  const ultimosDigitos = custumerInput.slice(-4);
-  const simboloMascara = "#";
-  const qtdCaracteres = custumerInput.length - 4;
-  const numeroMascarado = simboloMascara.repeat(qtdCaracteres) + ultimosDigitos;
-  return numeroMascarado
+  const lastDigits = custumerInput.slice(-4);
+  const hashMask = "#";
+  const charLength = custumerInput.length - 4;
+  const maskifidNumber = hashMask.repeat(charLength) + lastDigits;
+  return maskifidNumber
 }
 
        //export default validator;

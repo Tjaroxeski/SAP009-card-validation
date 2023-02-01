@@ -12,7 +12,8 @@ const formulario = document.getElementById("formulario");// chamar o botão do h
 formulario.addEventListener("submit", cardValidation); // adicionar evento no botao vai chamar funçao card validation 
 // criar funcao com as regras de digitacao para o card validation
 
-function cardValidation() {
+function cardValidation(e) {
+   e.preventDefault();
    //console.log("teste")
    //evento.preventDefault() // evento para pagina nao atualizar depois que a pagina atualizar 
    const custumerInput = creditCardNumber.value;

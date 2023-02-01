@@ -1,17 +1,16 @@
-html, body{
-    background-color:#E6E6FA;
+html,
+body {
+    background-color: #E6E6FA;
     font-family: 'Times New Roman', Times, serif;
-    color:#008B8B;
-    display:block;
+    color: #008B8B;
+    display: block;
     text-align: center;
-    
+
 
 }
-.conteiner{
-    background-color:#F8F8FF;
 
-
-
+.conteiner {
+    background-color: #F8F8FF;
     text-align: center;
     padding: lem;
     border-radius: 10px;
@@ -20,41 +19,54 @@ html, body{
     box-shadow: 5px 8px 8px #666;
     color: black;
     align-items: center;
-    
- 
 
+
+
+}
+.form-submit-button {
+	background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;
+	width: 100px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
 }
 
 
-.number{
+.number {
     border-radius: 20px;
     width: 27em;
     height: 2em;
     text-align: center;
 }
 
-.vali{
+.vali {
     border-radius: 20px;
     left: 27em;
     width: 5em;
-    
+
 
 }
-.verify{
+
+.verify {
     border-radius: 20px;
     left: 27em;
     width: 5em;
-   
+
 
 
 }
-.custumer{
+
+.custumer {
     border-radius: 20px;
     width: 27em;
     height: 2em;
     text-align: center;
 }
-.footer{
+
+.footer {
     text-align: left;
     height: 20em;
     width: 10em;
