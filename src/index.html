@@ -1,14 +1,62 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="index.js" type="module"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Valide aqui o seu cartão</h1>
+  </header>
+
+  <main>
+    <h2>Informe os dados do seu cartão de Crédito</h2>
+
+    <section class="desenhacartao">
+      <div class="container">
+        <form>
+          <div class="card_number" id="creditCardNumber">
+            <label for="cardNumber">Numero do cartão</label>
+            <input type="text" class="cardNumber" id="cardNumber" placeholder="0000 0000 0000 0000" maxlength="16"
+              required>
+            <div id="logo"></div>
+          </div>
+
+          <div class="card_nome">
+            <label for="cardNome">Nome do Usuário</label>
+            <input type="text" class="cardNome" id="cardNome" placeholder="digite seu nome" required>
+          </div>
+
+          <div class="data_Vencimento">
+            <label for="dataVencimento">Data de Vencimento</label>
+            <input type="number" class="dataVencimento" id="dataVencimento" placeholder="00/00/00" maxlength="7">
+          </div>
+          
+          <div>
+            <label for="CVCnumber">Código de segurança</label>
+            <input type="text" class="CVCnumber" id="CVCnumber" placeholder="000" maxlength="3">
+          </div>
+        </form>
+
+      </div>
+    </section>
+  </section>
+  <button id="button">
+    verificar
+  </button>
+  <p id="mensagem"></p>
+</main>
+  </main>
+
+  <footer>
+    <h6>pagina desenvolvida por Tharla Patricia Jaroxeski -Sap009 </h6>
+  </footer>
+</body>
+
 </html>

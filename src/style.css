@@ -1,0 +1,35 @@
+ body {
+     background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100vh;
+     margin-top: 150px;
+     text-align: center;
+
+
+ }
+
+ .desenhacartao {
+     background-color: rgb(224, 184, 218);
+     border-radius: 10px;
+     width: 400px;
+     text-align: center;
+     border: blueviolet solid;
+     margin: auto;
+ }
+
+ .container {
+     font-weight: bold;
+     color: blueviolet;
+     margin: auto;
+     padding: 20px;
+ }
+
+ form {
+     display: block;
+ }
+
+ div input {
+     margin: 5px;
+     padding: 5px;
+ }
