@@ -33,19 +33,19 @@ Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumo do projeto
 
-Neste projeto, você precisará criar um aplicativo da Web que permita ao usuário
-validar o número de um cartão de crédito.  Além disso, você precisará
-implementar a funcionalidade para ocultar todos os dígitos de um cartão, exceto
+Este foi meu primeiro projeto para o desenvolvimento de uma página web. 
+Neste projeto, precisei criar um aplicativo da Web que permita ao usuário
+validar o número de um cartão de crédito.  Além disso, 
+implementei a funcionalidade para ocultar todos os dígitos de um cartão, exceto
 os quatro últimos.
 
-O tema é livre. Você deve pensar em quais situações da vida real um cartão de
-crédito precisaria ser validado e em como deveria ser a experiência do usuário
-(telas, explicações, mensagens, cores, marca?) etc.
+Meu objetivo foi criar uma página simples e intuitiva, onde o usuário pudesse validar 
+os números do cartão para finalizar uma compra. O publico alvo foi definido como mulheres de 14 a 50 anos. 
 
-Como continuação do projeto de pré-admissão, você retrabalhará os fundamentos
-do JavaScript, incluindo conceitos como variáveis, condicionais e funções,
+
+Utilizei os fundamentos do JavaScript, incluindo conceitos como variáveis, condicionais e funções,
 bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
-Ao desenvolver este projeto, você também se familiarizará com novos conceitos.
+
 
 ### Os objetivos gerais deste projeto são os seguintes
 
@@ -58,11 +58,8 @@ Ao desenvolver este projeto, você também se familiarizará com novos conceitos
 
 ## 3. Considerações gerais
 
-* Resolvemos este projeto individualmente. Recomendamos uma duração de 1-3 sprints.
-* Concentre-se em aprender e não apenas "concluir" o projeto.
-* Sugerimos que você não tente saber tudo antes de começar a codificar.
-  Não se preocupe muito agora com o que você _ainda_ não entende.
-  Você vai aprender.
+* O projeto foi realizado individualmente e finalizado em 4 semanas.
+
 
 ## 4. Marco: Critérios de Aceitação Mínimos do Projeto
 

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Delivery de comida- Rango na hora</title>
+  <title>Pagamento</title>
   <link rel="stylesheet" href="style.css" />
 
 
@@ -11,22 +11,22 @@
 
 <body>
   <header>
-    <h1>Falta pouco para a sua comida chegar até você!</h1>
+    <h1>Falta pouco para seu pedido chegar até você!</h1>
     <h2>Para finalizar sua compra, insira os dados do seu cartão de crédito</h2>
   </header>
 
   <main>
-
+   <form id="formulario">
     <div class="conteiner">
       <div class="content">
         <div class="header">
 
-          <form id="formulario">
+          
             <label>
               <p>Número do cartão</p>
               <input label for="cartao" class="number" id="cc" type="text" name="creditcard"
-                onkeypress="return event.charCode >=48 && event.charCode <=57" placeholder="XXXX.XXXX.XXXX.XXXX"
-                maxlength="16" data-js="cartao">
+               placeholder="XXXX.XXXX.XXXX.XXXX"
+                maxlength="16" autocomplete="off">
               <!--event.charCode- Representa um número de cada caractere na tabela unicode (entre 48 e 57 estão os numeros de 0 a 9)-->
 
 
@@ -34,26 +34,27 @@
 
               <p>Validade (mês/ano)</p>
               <input label for="val" class="vali " id="vality" type="text" name="val" placeholder="00/00" maxlength="5"
-                required>
+                required autocomplete="off">
 
 
 
 
               <p>Código de segurança</p>
-              <input class="verify" id="code" type="text" name="cod" placeholder="XXX" maxlength="3" required>
+              <input class="verify" id="code" type="text" name="cod" placeholder="XXX" maxlength="3" required
+                autocomplete="off">
 
 
 
 
               <p>Nome do Titular</p>
-              <input class="custumer" id="name" type="text" name="holder" placeholder="Nome impresso no cartão"
-                required>
+              <input class="custumer" id="name" type="text" name="holder" placeholder="Nome impresso no cartão" required
+                autocomplete="off">
             </label>
 
         </div>
       </div>
     </div>
-    <button type="submit" id="enviar" name="ok">Enviar dados e fazer pedido...</button>
+    <button type="submit" id="enviar" name="ok" class="btn">Enviar dados e fazer pedido</button>
     </form>
 
 
