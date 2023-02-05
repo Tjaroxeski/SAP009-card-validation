@@ -23,8 +23,6 @@ ser multiplicados por dois; se esse número for maior ou igual a 10, devemos
 adicionar os dígitos do resultado; o número a verificar será válido se a soma de
 seus dígitos finais for um múltiplo de 10.
 
-![gráfico do algoritmo de
-Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumo do projeto
 
@@ -58,7 +56,7 @@ bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
 
 ## 4. Protótipo 
 
-Utilizei uma prototipagem simples [protótipo]("C:\Users\tarci\OneDrive\Imagens\Prototipo simples card validation.jpeg"), 
+Utilizei uma ![prototipagem simples]("C:\Users\tarci\Downloads\prototipo .png"), 
 desenhei a ideia original, porém alguns itens como campo para incluir CPF e apelido do cartão foram retirados durante a realização do projeto. 
 
 ## 5. Testes unitários dos métodos.**
