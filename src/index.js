@@ -17,12 +17,10 @@ function cardValition(e) {
   //console.log("teste")
   //evento.preventDefault() // evento para pagina nao atualizar depois que a pagina atualizar 
   const custumerInput = creditCardNumber.value;
-  console.log(custumerInput)
+  //console.log(custumerInput)
   //regras para aceitacao 
   if (
-    custumerInput === "" ||
-    
-    custumerInput.length <= 7
+    custumerInput === "" 
   ) {
     alert("Dados incompletos, por favor verifique os números do cartão e digite novamente!");
   }
