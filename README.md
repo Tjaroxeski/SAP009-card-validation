@@ -56,8 +56,8 @@ bem como eventos e manipulação básica de DOM, fundamentos HTML e CSS.
 
 ## 4. Protótipo 
 
-Utilizei uma ![prototipagem simples]("C:\Users\tarci\Downloads\prototipo .png"), 
-desenhei a ideia original, porém alguns itens como campo para incluir CPF e apelido do cartão foram retirados durante a realização do projeto. 
+Utilizei uma prototipagem simples, desenhei a ideia original, porém alguns itens como 
+campo para incluir CPF e apelido do cartão foram retirados durante a realização do projeto. 
 
 ## 5. Testes unitários dos métodos.**
 Os métodos `validator` (`isValid` e `maskify`) devem ser cobertos por testes unitários.

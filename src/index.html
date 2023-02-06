@@ -24,7 +24,7 @@
           
             <label>
               <p>Número do cartão</p>
-              <input label for="cartao" class="number" id="cc" type="text" name="creditcard"
+              <input label for="cartao" class="number" id="cc" type="text" name="creditcard" onkeypress="return event.charCode >=48 && event.charCode <=57"
                placeholder="XXXX.XXXX.XXXX.XXXX"
                 maxlength="16" autocomplete="off">
               <!--event.charCode- Representa um número de cada caractere na tabela unicode (entre 48 e 57 estão os numeros de 0 a 9)-->

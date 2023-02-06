@@ -8,6 +8,7 @@ body {
 
 }
 
+
 .conteiner {
     position: relative;
     left: 350px;
@@ -20,12 +21,6 @@ body {
     height: 20em;
     box-shadow: 5px 8px 8px #666;
 
-
-}
-
-
-p {
-    color: #4682B4;
 }
 
 .number {
@@ -33,6 +28,7 @@ p {
     width: 27em;
     height: 2em;
     text-align: center;
+    
 }
 
 .vali {
@@ -56,6 +52,8 @@ p {
     text-align: center;
 }
 
+
+
 .btn {
     position: relative;
     left: 5px;
@@ -66,7 +64,6 @@ p {
     border-radius: 20px;
     color: #8A2BE2;
 
-
 }
 
 .footer {
@@ -74,4 +71,9 @@ p {
     height: 20em;
     width: 10em;
     border-radius: 20px;
+}
+
+p {
+    color: #4682B4;
+    
 }
