@@ -10,7 +10,7 @@ const validator = {
 
     for (let i = 0; i <= arrayCreditCardNumber.length - 1; i++) {
       //console.log(arrayCreditCardNumber); //ok, funfando a array invertida
-      let digit = parseInt(arrayCreditCardNumber[i]);
+      let digit = parseInt(arrayCreditCardNumber[i]); 
       if (i % 2 === 0) {
         digit *= 2;
         if (digit > 9) {
