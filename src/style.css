@@ -1,59 +1,45 @@
 html,
 body {
-    background-color: #FFC0CB;
+    background-color: #FFFFFF;
     font-family: cursive;
     color: #8A2BE2;
     display: block;
     text-align: center;
-
 }
-
-
 .conteiner {
     position: relative;
     left: 350px;
     right: 100px;
     padding-block: 1em;
-    background-color: #F8F8FF;
+    background-color: #FFE4E1;
     text-align: center;
     border-radius: 10px;
     width: 37em;
     height: 20em;
     box-shadow: 5px 8px 8px #666;
-
 }
-
 .number {
     border-radius: 20px;
     width: 27em;
     height: 2em;
-    text-align: center;
-    
+    text-align: center; 
 }
-
 .vali {
     border-radius: 20px;
     left: 27em;
     width: 5em;
-
 }
-
 .verify {
     border-radius: 20px;
     left: 27em;
     width: 5em;
-
 }
-
 .custumer {
     border-radius: 20px;
     width: 27em;
     height: 2em;
     text-align: center;
 }
-
-
-
 .btn {
     position: relative;
     left: 5px;
@@ -63,17 +49,17 @@ body {
     box-shadow: 5px 8px 8px #666;
     border-radius: 20px;
     color: #8A2BE2;
-
 }
-
 .footer {
     text-align: left;
     height: 20em;
     width: 10em;
     border-radius: 20px;
 }
-
 p {
-    color: #4682B4;
-    
+    color: #4682B4;  
 }
+#mensagem {
+    color: black;
+}
+

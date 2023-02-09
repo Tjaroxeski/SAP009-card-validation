@@ -1,38 +1,30 @@
-//export function
 const validator = {
   isValid(creditCardNumber) {
 
-    const arrayCreditCardNumber = creditCardNumber.split("").reverse(); //esse número vai gerar um array com 16 números e reverter
-    //console.log("hello", arrayCreditCardNumber);//ok- ta funfando!
-    let totalSum = 0 //variavel que irá guardar o valor da soma
-
-
-
-    for (let i = 0; i <= arrayCreditCardNumber.length - 1; i++) {
-      //console.log(arrayCreditCardNumber); //ok, funfando a array invertida
-      let digit = parseInt(arrayCreditCardNumber[i]); 
-      if (i % 2 === 0) {
-        digit *= 2;
-        if (digit > 9) {
-          digit -= 9;
-        }
-
+    const arrayNumber =[];
+    for (let i = 0; i < creditCardNumber.length; i ++){
+      const digit = parseInt(creditCardNumber[i]);
+      arrayNumber.push(digit);
+    }
+    const reversedNumber = arrayNumber.reverse();
+    for (let indice = 0; indice < reversedNumber.length; indice++){
+      if((indice +1) % 2 ===0) { 
+        reversedNumber[indice]= reversedNumber[indice] * 2;
       }
-
-      totalSum += digit;
+      if(reversedNumber[indice] >=10) { 
+        reversedNumber[indice] = reversedNumber[indice]-9;
+      }     
     }
-    if (totalSum % 10 === 0) {
-      return true
+    let total = 0;
+    for( let indice=0; indice < reversedNumber.length; indice ++){
+      total = total +reversedNumber[indice];
     }
-    return false
-
+    return total % 10 ===0
   },
-
   maskify(custumerInput) {
     if (custumerInput.length <= 4) {
       return custumerInput
     }
-
     const lastDigits = custumerInput.slice(-4);
     const hashMask = "#";
     const charLength = custumerInput.length - 4;
@@ -40,4 +32,5 @@ const validator = {
     return maskifidNumber
   }
 }
+
 export default validator;

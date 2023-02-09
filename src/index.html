@@ -5,70 +5,39 @@
   <meta charset="utf-8">
   <title>Pagamento</title>
   <link rel="stylesheet" href="style.css" />
-
-
 </head>
-
 <body>
   <header>
     <h1>Falta pouco para seu pedido chegar até você!</h1>
-    <h2>Para finalizar sua compra, insira os dados do seu cartão de crédito</h2>
+    <h2>Para finalizar sua compra, valide o número de seu cartão de crédito</h2>
   </header>
-
   <main>
    <form id="formulario">
     <div class="conteiner">
       <div class="content">
         <div class="header">
-
-          
-            <label>
-              <p>Número do cartão</p>
-              <input label for="cartao" class="number" id="cc" type="text" name="creditcard" onkeypress="return event.charCode >=48 && event.charCode <=57"
-               placeholder="XXXX.XXXX.XXXX.XXXX"
-                maxlength="16" autocomplete="off">
-              <!--event.charCode- Representa um número de cada caractere na tabela unicode (entre 48 e 57 estão os numeros de 0 a 9)-->
-
-
-
-
-              <p>Validade (mês/ano)</p>
-              <input label for="val" class="vali " id="vality" type="text" name="val" placeholder="00/00" maxlength="5"
-                required autocomplete="off"> 
-
-
-
-
-              <p>Código de segurança</p>
-              <input class="verify" id="code" type="text" name="cod" placeholder="XXX" maxlength="3" required
-                autocomplete="off">
-
-
-
-
-              <p>Nome do Titular</p>
-              <input class="custumer" id="name" type="text" name="holder" placeholder="Nome impresso no cartão" required
-                autocomplete="off">
+          <label>
+            <p>Número do cartão</p>
+            <input label for="cartao" class="number" id="cc" type="text" name="creditcard" onkeypress="return event.charCode >=48 && event.charCode <=57"
+             placeholder="XXXX.XXXX.XXXX.XXXX"
+             maxlength="16" autocomplete="off">
+            <p>Código de segurança</p>
+            <input class="verify" id="code" type="text" name="cod" placeholder="XXX" maxlength="3" required autocomplete="off">
+            <p>Nome do Titular</p>
+            <input class="custumer" id="name" type="text" name="holder" placeholder="Seu nome aqui!"  autocomplete="off">
             </label>
-
+            <p id="mensagem" ></p>
         </div>
       </div>
     </div>
-    <button type="submit" id="enviar" name="ok" class="btn">Enviar dados e fazer pedido</button>
-    </form>
-
-
+    <button type="submit" id="enviar" name="ok" class="btn">Validar cartão de crédito</button> 
+  </form>
   </main>
   <footer>
     <div class="footer">
-
-      <p id="mensagem">Desenvolvido por Tarcila Schultz</p>
+     <p> Desenvolvido por Tarcila Schultz</p>
     </div>
-
-
-
   </footer>
   <script src="index.js" type="module"></script>
 </body>
-
 </html>
