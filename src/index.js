@@ -16,8 +16,8 @@ function cardValidation(e) {
     creditCardNumber.value = validator.maskify(custumerInput)
     return (aviso.innerHTML="O cartão foi validado, em breve você receberá seu pedido!"); 
   } else {
-    (validator.isValid(custumerInput) === false)
+    (validator.isValid(custumerInput))
+    creditCardNumber.value = validator.maskify(custumerInput)
     return (aviso.innerHTML= "Ops! Algo de errado aconteceu, por favor verifique os números do cartão e tente novamente.")
   }
-  creditCardNumber.value = validator.maskify(custumerInput)
 }
